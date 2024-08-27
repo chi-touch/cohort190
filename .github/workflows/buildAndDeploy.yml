@@ -39,4 +39,4 @@ jobs:
         run: docker build -t chi-touch/devops:latest .
 
       - name: Push Docker image to Docker Hub
-        run: docker push chi-touch/devops:latest
+        run: sudo docker push chi-touch/devops:latest
