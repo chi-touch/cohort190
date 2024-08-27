@@ -36,7 +36,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Build Docker image
-        run: docker build -t chichia/devops:latest .
+        run: docker build -t chichia/devop:latest .
 
       - name: Push Docker image to Docker Hub
-        run: sudo docker push chichia/devops:latest
+        run: docker push chichia/devop:latest
