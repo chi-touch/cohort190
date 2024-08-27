@@ -20,8 +20,6 @@ public class DevUserTest {
     private UserRepository userRepository;
 
 
-
-
     @Test
     public void testToRegisterUser(){
         RegisterRequest registerRequest = new RegisterRequest();
