@@ -8,12 +8,8 @@ import com.africa.semicolon.devops.exceptions.IllegalInputException;
 import com.africa.semicolon.devops.exceptions.ThisUserAlreadyExistException;
 import com.africa.semicolon.devops.models.DevUser;
 import com.africa.semicolon.devops.repositories.UserRepository;
-import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
 import lombok.RequiredArgsConstructor;
-import org.apache.catalina.User;
 import org.modelmapper.ModelMapper;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
